@@ -1,0 +1,26 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --caption-text-color: #212121;
+  --title-background-color: #2f303a;
+  --btn-hover-bgcolor: #188ce8;
+
+  --section-backgraund-color: #ffffff;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --filter-bg-color: #f5f4fa;
+  --soc-icon-color: #afb1b8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--section-backgraund-color);
+}
+
+.navigation__logo--color-dark {
+  color: var(--title-text-color);
+}
+.navigation__logo--color-light {
+  color: var(--section-backgraund-color);
+}
