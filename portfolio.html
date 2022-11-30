@@ -130,19 +130,19 @@
       <section class="section-filter">
         <div class="project-container container">
           <ul class="filter-list list">
-            <li>
+            <li class="filter-item">
               <button class="filter-btn" type="button">Усі</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-btn" type="button">Веб-сайти</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-btn" type="button">Додатки</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-btn" type="button">Дизайн</button>
             </li>
-            <li>
+            <li class="filter-item">
               <button class="filter-btn" type="button">Маркетинг</button>
             </li>
           </ul>
@@ -151,12 +151,36 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img1.jpg"
-                    alt="екран ноутбука із зображенням фото людей"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img1-370_1x.jpg 1x,
+                        ./images/portf-img1-370_2x.jpg 2x,
+                        ./images/portf-img1-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img1-354_1x.jpg 1x,
+                        ./images/portf-img1-354_2x.jpg 2x,
+                        ./images/portf-img1-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img1-450_1x.jpg 1x,
+                        ./images/portf-img1-450_2x.jpg 2x,
+                        ./images/portf-img1-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portf-img1-450_1x.jpg"
+                      alt="екран ноутбука із зображенням фото людей"
+                    />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -172,13 +196,37 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img2.jpg"
-                    alt="два баскетболіста в
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img2-370_1x.jpg 1x,
+                        ./images/portf-img2-370_2x.jpg 2x,
+                        ./images/portf-img2-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img2-354_1x.jpg 1x,
+                        ./images/portf-img2-354_2x.jpg 2x,
+                        ./images/portf-img2-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img2-450_1x.jpg 1x,
+                        ./images/portf-img2-450_2x.jpg 2x,
+                        ./images/portf-img2-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portf-img2-450_1x.jpg"
+                      alt="два баскетболіста в
             боротьбі"
-                    width="370"
-                    height="294"
-                  />
+                    />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -196,12 +244,33 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img3.jpg"
-                    alt="риба"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img3-370_1x.jpg 1x,
+                        ./images/portf-img3-370_2x.jpg 2x,
+                        ./images/portf-img3-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img3-354_1x.jpg 1x,
+                        ./images/portf-img3-354_2x.jpg 2x,
+                        ./images/portf-img3-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img3-450_1x.jpg 1x,
+                        ./images/portf-img3-450_2x.jpg 2x,
+                        ./images/portf-img3-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/portf-img3-450_1x.jpg" alt="риба" />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -217,12 +286,33 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img4.jpg"
-                    alt="навушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img4-370_1x.jpg 1x,
+                        ./images/portf-img4-370_2x.jpg 2x,
+                        ./images/portf-img4-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img4-354_1x.jpg 1x,
+                        ./images/portf-img4-354_2x.jpg 2x,
+                        ./images/portf-img4-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img4-450_1x.jpg 1x,
+                        ./images/portf-img4-450_2x.jpg 2x,
+                        ./images/portf-img4-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/portf-img4-450_1x.jpg" alt="навушники" />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -238,12 +328,36 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img5.jpg"
-                    alt="дві коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img5-370_1x.jpg 1x,
+                        ./images/portf-img5-370_2x.jpg 2x,
+                        ./images/portf-img5-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img5-354_1x.jpg 1x,
+                        ./images/portf-img5-354_2x.jpg 2x,
+                        ./images/portf-img5-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img5-450_1x.jpg 1x,
+                        ./images/portf-img5-450_2x.jpg 2x,
+                        ./images/portf-img5-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portf-img5-450_1x.jpg"
+                      alt="дві коробки"
+                    />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -259,12 +373,33 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img6.jpg"
-                    alt="монітор"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img6-370_1x.jpg 1x,
+                        ./images/portf-img6-370_2x.jpg 2x,
+                        ./images/portf-img6-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img6-354_1x.jpg 1x,
+                        ./images/portf-img6-354_2x.jpg 2x,
+                        ./images/portf-img6-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img6-450_1x.jpg 1x,
+                        ./images/portf-img6-450_2x.jpg 2x,
+                        ./images/portf-img6-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/portf-img6-450_1x.jpg" alt="монітор" />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -280,12 +415,36 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img7.jpg"
-                    alt="розгорнута книга"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img7-370_1x.jpg 1x,
+                        ./images/portf-img7-370_2x.jpg 2x,
+                        ./images/portf-img7-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img7-354_1x.jpg 1x,
+                        ./images/portf-img7-354_2x.jpg 2x,
+                        ./images/portf-img7-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img7-450_1x.jpg 1x,
+                        ./images/portf-img7-450_2x.jpg 2x,
+                        ./images/portf-img7-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portf-img7-450_1x.jpg"
+                      alt="розгорнута книга"
+                    />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -301,12 +460,33 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img8.jpg"
-                    alt="етикетка"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img8-370_1x.jpg 1x,
+                        ./images/portf-img8-370_2x.jpg 2x,
+                        ./images/portf-img8-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img8-354_1x.jpg 1x,
+                        ./images/portf-img8-354_2x.jpg 2x,
+                        ./images/portf-img8-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img8-450_1x.jpg 1x,
+                        ./images/portf-img8-450_2x.jpg 2x,
+                        ./images/portf-img8-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img src="./images/portf-img8-450_1x.jpg" alt="етикетка" />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -322,12 +502,36 @@
             <li class="project-item">
               <a class="project-link" href="#">
                 <div class="portfolio-top-wrap">
-                  <img
-                    src="./images/portf-img9.jpg"
-                    alt="людина працює за ноутбуком"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portf-img9-370_1x.jpg 1x,
+                        ./images/portf-img9-370_2x.jpg 2x,
+                        ./images/portf-img9-370_3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img9-354_1x.jpg 1x,
+                        ./images/portf-img9-354_2x.jpg 2x,
+                        ./images/portf-img9-354_3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portf-img9-450_1x.jpg 1x,
+                        ./images/portf-img9-450_2x.jpg 2x,
+                        ./images/portf-img9-450_3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portf-img9-450_1x.jpg"
+                      alt="людина працює за ноутбуком"
+                    />
+                  </picture>
                   <p class="portfolio-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу

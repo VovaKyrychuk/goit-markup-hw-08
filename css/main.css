@@ -1154,6 +1154,21 @@ html {
   color: var(--primary-text-color);
 }
 
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .filter-list {
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filter-list {
+    justify-content: center;
+  }
+}
+
 .project-title {
   visibility: hidden;
   margin-bottom: 0px;
@@ -1165,6 +1180,17 @@ html {
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-item {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .project-content {
