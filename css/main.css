@@ -1311,6 +1311,14 @@ html {
   }
 }
 
+.footer-social {
+  margin-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-top: 0px;
+  }
+}
 .footer-social__list {
   display: flex;
   padding-left: 0px;
@@ -1339,11 +1347,6 @@ html {
 }
 .footer-social__icon {
   fill: var(--section-backgraund-color);
-}
-@media screen and (max-width: 1199px) {
-  .footer-social {
-    margin-top: 60px;
-  }
 }
 
 @media screen and (max-width: 1199px) {
