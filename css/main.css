@@ -1097,15 +1097,15 @@ html {
   }
 }
 
-.section-filter {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .filter-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .filter-list {
+    justify-content: center;
+  }
 }
 
 .filter-btn {
@@ -1161,21 +1161,6 @@ html {
   color: var(--primary-text-color);
 }
 
-.filter-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-@media screen and (max-width: 767px) {
-  .filter-list {
-    justify-content: flex-start;
-  }
-}
-@media screen and (min-width: 768px) {
-  .filter-list {
-    justify-content: center;
-  }
-}
-
 .project-title {
   visibility: hidden;
   margin-bottom: 0px;
@@ -1185,8 +1170,18 @@ html {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 40px;
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .project-list {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project-list {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1196,7 +1191,7 @@ html {
 }
 @media screen and (min-width: 1200px) {
   .project-item {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
   }
 }
 
@@ -1208,6 +1203,12 @@ html {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content {
+    padding-bottom: 56px;
+  }
 }
 
 .portfolio-top-wrap {
