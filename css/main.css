@@ -592,7 +592,7 @@ html {
   .current::after {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     display: flex;
     content: "";
     width: 100%;
@@ -667,6 +667,9 @@ html {
   }
   .contacts__item {
     margin-bottom: 10px;
+  }
+  .contacts__item:not(:first-child) {
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -860,6 +863,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-work {
+  padding-bottom: 94px;
 }
 
 .work-list {
@@ -1189,7 +1196,7 @@ html {
 }
 @media screen and (min-width: 1200px) {
   .project-item {
-    width: calc((100% - 90px) / 4);
+    width: calc((100% - 90px) / 3);
   }
 }
 
@@ -1339,6 +1346,11 @@ html {
 
 .footer-social {
   margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer-social {
+    margin-top: 0px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer-social {
